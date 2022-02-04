@@ -1,3 +1,7 @@
+# introduce
+
+this typescript template project is created for to improve development performance. this should be develop continue.
+
 ### lint
 
 #### Running ESLint
