@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "args": [
+        "--ui",
+        "bdd",
+        "--require",
+        "ts-node/register",
+        "--timeout",
+        "999999",
+        "--colors",
+        "--bail",
+        "${workspaceFolder}/test/**",
+      ],
+      "internalConsoleOptions": "openOnSessionStart",
+      "name": "Mocha Tests",
+      "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+      "request": "launch",
+      // "env": {
+      //     "NODE_ENV": "test",
+      // },
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+      ],
+    }
+  ]
+}
