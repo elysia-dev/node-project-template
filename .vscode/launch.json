@@ -11,7 +11,7 @@
         "999999",
         "--colors",
         "--bail",
-        "${workspaceFolder}/test/**",
+        "${workspaceFolder}/test/**"
       ],
       "internalConsoleOptions": "openOnSessionStart",
       "name": "Mocha Tests",
@@ -24,6 +24,7 @@
         "${workspaceFolder}/**",
         "!**/node_modules/**"
       ],
+      "runtimeExecutable": "/Users/mh/.nvm/versions/node/v12.22.8/bin/node"
     }
   ]
 }
